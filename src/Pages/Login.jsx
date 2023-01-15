@@ -4,6 +4,7 @@ import StyledLogin from "./../Styles/StyledLogin";
 import faceBookLogo from "./../Images/facebookLogo.svg";
 import LoginForm from "../Components/Login/LoginForm";
 import { Link } from "react-router-dom";
+import Footer from "./../Components/Footer/Footer";
 
 const Login = () => {
   return (
@@ -38,6 +39,7 @@ const Login = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </StyledLogin>
     </>
   );
